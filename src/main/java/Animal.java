@@ -3,6 +3,10 @@ public class Animal {
 
     int age;
 
-    public void eat() { hungry = true; }
+    String name;
+
+    public void eat() { hungry = false; }
     public void stateOlder() { age++; }
+
+    public String getName() { return this.name; }
 }
