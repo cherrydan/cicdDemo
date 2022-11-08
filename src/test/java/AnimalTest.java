@@ -24,4 +24,10 @@ public class AnimalTest {
         animal.stateOlder();
         Assertions.assertEquals(animal.age, 3);
     }
+
+    @Test
+    public void testName() {
+        animal.name = "Keiko";
+        Assertions.assertEquals(animal.getName(), "Keiko");
+    }
 }
