@@ -28,6 +28,6 @@ public class AnimalTest {
     @Test
     public void testName() {
         animal.name = "Keiko";
-        Assertions.assertEquals(animal.getName(), "Keyko");
+        Assertions.assertEquals(animal.getName(), "Keiko");
     }
 }
