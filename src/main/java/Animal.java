@@ -3,6 +3,6 @@ public class Animal {
 
     int age;
 
-    public void eat() { hungry = false; }
+    public void eat() { hungry = true; }
     public void stateOlder() { age++; }
 }
